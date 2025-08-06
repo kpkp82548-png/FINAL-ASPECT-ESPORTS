@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPECT Esports - News & Updates</title>
+    <meta name="description" content="Stay updated with the latest news, announcements, and updates from ASPECT Esports teams and organization.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <span class="logo-text">ASPECT</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link">HOME</a>
+                    <a href="partners.html" class="nav-link">PARTNERS</a>
+                    <a href="teams.html" class="nav-link">TEAMS</a>
+                    <a href="content.html" class="nav-link">CONTENT</a>
+                    <a href="news.html" class="nav-link active">NEWS</a>
+                    <a href="shop.html" class="nav-link">SHOP</a>
+                </nav>
+
+                <!-- Right side icons -->
+                <div class="header-icons">
+                    <button class="icon-btn">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <button class="icon-btn">
+                        <i class="fas fa-shopping-bag"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="nav-mobile" id="mobileNav">
+                <a href="index.html" class="nav-link-mobile">HOME</a>
+                <a href="partners.html" class="nav-link-mobile">PARTNERS</a>
+                <a href="teams.html" class="nav-link-mobile">TEAMS</a>
+                <a href="content.html" class="nav-link-mobile">CONTENT</a>
+                <a href="news.html" class="nav-link-mobile active">NEWS</a>
+                <a href="shop.html" class="nav-link-mobile">SHOP</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-bg">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-title">LATEST <span class="gradient-text">NEWS</span></h1>
+                <p class="page-subtitle">Stay updated with the latest from ASPECT Esports</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breaking News -->
+    <section class="breaking-news">
+        <div class="container">
+            <div class="breaking-banner">
+                <div class="breaking-label">
+                    <i class="fas fa-bolt"></i>
+                    BREAKING
+                </div>
+                <div class="breaking-text">
+                    ASPECT VALORANT qualifies for VCT Champions 2024 Grand Finals!
+                </div>
+                <button class="breaking-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="featured-article">
+        <div class="container">
+            <div class="article-card featured">
+                <div class="article-image">
+                    <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Featured Article">
+                    <div class="article-category">TOURNAMENT</div>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">January 12, 2024</span>
+                        <span class="article-read-time">5 min read</span>
+                    </div>
+                    <h2 class="article-title">ASPECT VALORANT Advances to VCT Champions Grand Finals</h2>
+                    <p class="article-excerpt">
+                        In a thrilling semi-final match that went to overtime on the final map, ASPECT VALORANT secured their spot in the VCT Champions Grand Finals. The team showcased incredible resilience and tactical prowess, overcoming a 2-1 deficit to win 3-2 against Team Liquid.
+                    </p>
+                    <div class="article-footer">
+                        <div class="article-author">
+                            <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Author">
+                            <span>Sarah Johnson</span>
+                        </div>
+                        <button class="read-more-btn">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Categories -->
+    <section class="news-categories">
+        <div class="container">
+            <div class="categories-nav">
+                <button class="category-tab active" data-category="all">ALL NEWS</button>
+                <button class="category-tab" data-category="tournaments">TOURNAMENTS</button>
+                <button class="category-tab" data-category="roster">ROSTER UPDATES</button>
+                <button class="category-tab" data-category="partnerships">PARTNERSHIPS</button>
+                <button class="category-tab" data-category="community">COMMUNITY</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Grid -->
+    <section class="news-grid">
+        <div class="container">
+            <div class="articles-grid">
+                <article class="article-card" data-category="roster">
+                    <div class="article-image">
+                        <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=400" alt="News Article">
+                        <div class="article-category">ROSTER UPDATE</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">January 10, 2024</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                        <h3 class="article-title">Welcome "Phantom" to ASPECT VALORANT</h3>
+                        <p class="article-excerpt">
+                            We're excited to announce the addition of rising star "Phantom" to our VALORANT roster as our new sixth player and strategic substitute.
+                        </p>
+                        <div class="article-stats">
+                            <span><i class="fas fa-eye"></i> 12.5K views</span>
+                            <span><i class="fas fa-heart"></i> 892 likes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card" data-category="tournaments">
+                    <div class="article-image">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="News Article">
+                        <div class="article-category">TOURNAMENT</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">January 8, 2024</span>
+                            <span class="article-read-time">4 min read</span>
+                        </div>
+                        <h3 class="article-title">LEC Winter Split: ASPECT Maintains #1 Position</h3>
+                        <p class="article-excerpt">
+                            Our League of Legends team continues their dominant performance in the LEC Winter Split, securing crucial victories in Week 3.
+                        </p>
+                        <div class="article-stats">
+                            <span><i class="fas fa-eye"></i> 18.2K views</span>
+                            <span><i class="fas fa-heart"></i> 1.4K likes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card" data-category="partnerships">
+                    <div class="article-image">
+                        <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=400" alt="News Article">
+                        <div class="article-category">PARTNERSHIP</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">January 5, 2024</span>
+                            <span class="article-read-time">2 min read</span>
+                        </div>
+                        <h3 class="article-title">ASPECT Partners with TechFlow Gaming</h3>
+                        <p class="article-excerpt">
+                            We're thrilled to announce our new multi-year partnership with TechFlow Gaming, providing cutting-edge hardware for all our teams.
+                        </p>
+                        <div class="article-stats">
+                            <span><i class="fas fa-eye"></i> 9.8K views</span>
+                            <span><i class="fas fa-heart"></i> 567 likes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card" data-category="tournaments">
+                    <div class="article-image">
+                        <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=400" alt="News Article">
+                        <div class="article-category">TOURNAMENT</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">January 3, 2024</span>
+                            <span class="article-read-time">6 min read</span>
+                        </div>
+                        <h3 class="article-title">CS2 Team Reaches ESL Pro League Playoffs</h3>
+                        <p class="article-excerpt">
+                            Our Counter-Strike 2 roster has secured their spot in the ESL Pro League playoffs after a stellar group stage performance.
+                        </p>
+                        <div class="article-stats">
+                            <span><i class="fas fa-eye"></i> 15.7K views</span>
+                            <span><i class="fas fa-heart"></i> 1.1K likes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card" data-category="community">
+                    <div class="article-image">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="News Article">
+                        <div class="article-category">COMMUNITY</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">December 30, 2023</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                        <h3 class="article-title">ASPECT Academy Program Launches</h3>
+                        <p class="article-excerpt">
+                            Introducing our new academy program designed to nurture the next generation of esports talent across multiple gaming titles.
+                        </p>
+                        <div class="article-stats">
+                            <span><i class="fas fa-eye"></i> 22.1K views</span>
+                            <span><i class="fas fa-heart"></i> 2.3K likes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card" data-category="roster">
+                    <div class="article-image">
+                        <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=400" alt="News Article">
+                        <div class="article-category">ROSTER UPDATE</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">December 28, 2023</span>
+                            <span class="article-read-time">4 min read</span>
+                        </div>
+                        <h3 class="article-title">Coach "Strategist" Joins ASPECT LEC</h3>
+                        <p class="article-excerpt">
+                            Veteran coach "Strategist" brings years of international experience to lead our League of Legends team to new heights.
+                        </p>
+                        <div class="article-stats">
+                            <span><i class="fas fa-eye"></i> 14.3K views</span>
+                            <span><i class="fas fa-heart"></i> 987 likes</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-section">
+                <button class="load-more-btn">LOAD MORE ARTICLES</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-info">
+                    <h2 class="newsletter-title">STAY IN THE LOOP</h2>
+                    <p class="newsletter-description">
+                        Get the latest ASPECT news, match updates, and exclusive content delivered straight to your inbox.
+                    </p>
+                </div>
+                <div class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email address" class="newsletter-input">
+                        <button class="newsletter-btn">SUBSCRIBE</button>
+                    </div>
+                    <p class="newsletter-disclaimer">
+                        By subscribing, you agree to receive marketing emails from ASPECT Esports. You can unsubscribe at any time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Logo and Description -->
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span class="logo-text">ASPECT</span>
+                    </div>
+                    <p class="footer-description">
+                        Elite esports organization breeding the next generation of professional gamers, content creators, and competitive champions.
+                    </p>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="footer-title">ORGANIZATION</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="teams.html" class="footer-link">Our Teams</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link">Press Kit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">COMPETITIONS</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Tournaments</a></li>
+                            <li><a href="#" class="footer-link">Match Schedule</a></li>
+                            <li><a href="#" class="footer-link">Results</a></li>
+                            <li><a href="#" class="footer-link">Rankings</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">COMMUNITY</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Discord</a></li>
+                            <li><a href="#" class="footer-link">Forums</a></li>
+                            <li><a href="#" class="footer-link">Fan Zone</a></li>
+                            <li><a href="content.html" class="footer-link">Content Hub</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">SUPPORT</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                            <li><a href="#" class="footer-link">FAQ</a></li>
+                            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 ASPECT Esports. All rights reserved.</p>
+                
+                <div class="footer-social">
+                    <a href="https://twitter.com/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://youtube.com/@aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://twitch.tv/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Twitch">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://discord.gg/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="news.js"></script>
+</body>
+</html>
